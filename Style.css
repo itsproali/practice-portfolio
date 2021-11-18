@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+#navbar{
+    width: 100%;
+    position: fixed;
+}
+#navbar .nav{
+    overflow: hidden;
+    background-color: #333333;
+    list-style-type: none;
+    display: block;
+}
+.nav li{
+    float: right;
+    padding: 16px;
+}
+.nav li a{
+    color: white;    
+}
+.nav li:hover{
+    color: tomato;
+    background-color: #111111 ;
+}
+.nav a:hover{
+    color: tomato;
+}
+
+/* Home Section */
+
+#home {
+    background-image: linear-gradient(rgba(1, 3, 15, 0.377), rgb(10, 10, 10)), url('Image/web-developer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 100%;    
+}
+#home .hi-there{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 130px 0 0 0;
+}
+#home .i-am-a{
+    color: tomato;
+    font-size: 80px;
+    margin-left: 23%;
+    text-align: center;
+    display: inline-flex;
+}
+#home .text{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    margin: 2% 20% 0 20%;
+}
+#home .find{
+    color: white;
+    font-size: 30px;
+    margin: 100px 0 -30px 65%;
+}
+
+#home .fa-facebook{
+    color: white;
+    font-size: 25px;
+    margin-left: 80%;
+}
+#home .fa-facebook:hover{
+    color: tomato;
+}
+#home .fa-github{
+    color: white;
+    font-size: 25px;
+    margin:0 0 0 10px;
+}
+#home .fa-github:hover{
+    color: tomato;
+}
+#home .fa-instagram{
+    color: white;
+    font-size: 25px;
+    margin:0 0 0 10px;
+}
+#home .fa-instagram:hover{
+    color: tomato;
+}
+#home .fa-twitter{
+    color: white;
+    font-size: 25px;
+    margin:0 0 0 10px;
+}
+#home .fa-twitter:hover{
+    color: tomato;
+}
+
+/* About Section */
+
+
+#about img{
+    width: 400px;
+    height: auto;
+    margin: -35% 0 0 70%;
+
+}
+#about h1{
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 50px 0 20px 200px;
+}
+#about p{
+    color: black;
+    font-size: 23px;
+    text-align: justify;
+    margin: 20px 40% 5% 15px;
+}
+#about a{
+    font-size: 25px;
+    color: tomato;
+    border: 1px solid tomato;
+    padding: 10px;
+    margin: 10px 0 10% 300px;
+}
+#about a:hover{
+    color: white;
+    background-color: tomato;
+}
+
+/* Portfolio Section */
+
+#portfolio h3{
+    color: tomato;
+    margin: 20px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    background-color: #333333;
+    margin:0px 0 10px 0;
+    color: white;
+    
+}
+
+#contact .facebook, .instagram, .twitter, .e-mail, .website{
+    display: inline;
+}
+#arrow{
+    text-align: right;
+    margin-right: 15px;
+}
+
+#footer{
+    background-color: #333333;
+}
+#footer p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
